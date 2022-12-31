@@ -1,4 +1,4 @@
-def faverite_book(book_title):
-    print(f"One of my faverite books is {book_title.title()}.")
+def faverite_book(title):
+    print(f"One of my faverite books is {title.title()}.")
 
 faverite_book("python crash course")
