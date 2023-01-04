@@ -1,5 +1,4 @@
 # Default Values
-
 def describe_pet(pet_name, animal_type='camel'):
     """Display information about a pet."""
     print(f"\nI have a {animal_type}.")
@@ -8,7 +7,7 @@ def describe_pet(pet_name, animal_type='camel'):
 describe_pet(pet_name="success")
 
 
-# Equivalent Function Calls
+# Equivalent Function Calls 
 # A camel named Success
 describe_pet("Success")
 describe_pet(pet_name='success')

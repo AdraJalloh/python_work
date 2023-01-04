@@ -1,7 +1,7 @@
 # Defining a Function
 def greet_user():
     """Display a simple greeting."""
-    print(f"Assalamu alaykum!")
+    print("Assalamu alaykum!")
 
 greet_user()
 
