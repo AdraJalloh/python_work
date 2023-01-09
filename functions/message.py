@@ -1,4 +1,5 @@
 def display_message():
-    print("Learning all about functions!")
+    """Displaying a simple message."""
+    print("I'm presently Learning all about Python functions!")
 
 display_message()

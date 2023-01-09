@@ -6,4 +6,4 @@ def describe_city(city, country='Salone'):
 
 describe_city('makeni')
 describe_city('freetown', 'salone')
-describe_city('bonthe island')
+describe_city('bounce island')
