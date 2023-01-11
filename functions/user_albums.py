@@ -1,5 +1,5 @@
 def make_album(artist, title, tracks=0):
-    """Build a dictionary containing information about an album."""
+    """A dictionary containing information about an album."""
     album_dict =  {
         'artist': artist.title(),
         'title': title.title(),

@@ -1,5 +1,5 @@
 def make_album(artist, title, tracks=0):
-    """Build a dictionary containing information about an album."""
+    """A dictionary describing about a music album."""
     album_dict =  {
         'artist': artist.title(),
         'title': title.title(),
@@ -8,14 +8,14 @@ def make_album(artist, title, tracks=0):
         album_dict['tracks'] = tracks
     return album_dict
 
-album = make_album('metallica', 'ride the lighting')
+album = make_album('kao denero', 'class in session')
 print(album)
 
-album = make_album('beethoven', 'ninth symphony')
+album = make_album('kaligraph jones', 'yes bana')
 print(album)
 
-album = make_album('willie nelson', 'red-headed stranger')
+album = make_album('sarkodie', 'azonto fiesta')
 print(album)
 
-album = make_album('iron maiden', 'peace of mind', tracks=8)
+album = make_album('m.i abaga', 'black bill gates', tracks=8)
 print(album)
