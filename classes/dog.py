@@ -1,4 +1,4 @@
-class Cow:
+class Dog:
     """A simple attempt to model a cow."""
 
     def __init__(self, name, age):
@@ -7,20 +7,20 @@ class Cow:
         self.age = age 
 
     def sit(self):
-        """Simulate a cow sitting in response to a command."""
+        """Simulate a dog sitting in response to a command."""
         print(f"{self.name} is now sitting.")
 
     def roll_over(self):
         """Simulate rolling over in response to a command."""
         print(f"{self.name} rolled over!")
 
-my_cow = Cow('Adra', 6)
-your_cow = Cow('Rizq', 3)
+my_dog = Dog('Willie', 6)
+your_dog = Dog('Lucy', 3)
 
-print(f"My cow's name is {my_cow.name}.")
-print(f"My cow is {my_cow.age} years old.")
-my_cow.sit()
+print(f"My dog's name is {my_dog.name}.")
+print(f"My dog is {my_dog.age} years old.")
+my_dog.sit()
 
-print(f"\nYour cow's name is {your_cow.name}.")
-print(f"Your cow is {your_cow.age} years old.")
-your_cow.sit()
+print(f"\nYour dog's name is {your_dog.name}.")
+print(f"Your dog is {your_dog.age} years old.")
+your_dog.sit()
